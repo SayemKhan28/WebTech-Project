@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independent University, Bangladesh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h3>Independent University, Bangladesh (IUB)</h3>
+
+        <div class="main">
+
+            <div class="information">
+                <p>Application Start Date: 2025-11-01</p>
+                <p>Application End Date: 2025-12-15 17:00</p>
+                <p>Exam Date: 2025-12-19 10:00</p>
+                <p>Result Date: 2025-12-24</p>
+                <p>Application Fees: 1000 Tk</p>
+
+                <p>Faculties:</p>
+                <p>SBE</p>
+                <p>SETS</p>
+                <p>SELS</p>
+                <p>SLASS</p>
+                <p>SPPH</p>
+
+            </div>
+
+            <div class="eligibility">
+
+                <h4>Program Details</h4>
+
+                <label for="department">Department:</label>
+                <select id="department" onchange="showFees()">
+                    <option value="">Select Department</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="BBA">BBA</option>
+                    <option value="English">English</option>
+                    <option value="Economics">Economics</option>
+                    <option value="CE">CE</option>
+                </select>
+
+                <p id="fees">Total Fees:</p>
+
+                <button onclick="apply()">Apply</button>
+
+            </div>
+
+        </div>
+
+        <button class="back" onclick="history.back()">Back</button>
+
+    </div>
+
+    <script src="iub.js"></script>
+
+</body>
+</html>

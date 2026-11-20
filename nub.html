@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northern University Bangladesh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h3>Northern University Bangladesh (NUB)</h3>
+
+        <div class="main">
+
+            <div class="information">
+                <p>Application Start Date: NULL</p>
+                <p>Application End Date: NULL</p>
+                <p>Exam Date: NULL</p>
+                <p>Result Date: NULL</p>
+                <p>Application Fees: 300 Tk</p>
+
+                <p>Faculties:</p>
+                <p>Engineering</p>
+                <p>Business</p>
+                <p>Arts</p>
+
+            </div>
+
+            <div class="eligibility">
+
+                <h4>Program Details</h4>
+
+                <label for="department">Department:</label>
+                <select id="department" onchange="showFees()">
+                    <option value="">Select Department</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="BBA">BBA</option>
+                    <option value="English">English</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                </select>
+
+                <p id="fees">Total Fees:</p>
+
+                <button onclick="apply()">Apply</button>
+
+            </div>
+
+        </div>
+
+        <button class="back" onclick="history.back()">Back</button>
+
+    </div>
+
+    <script src="nub.js"></script>
+
+</body>
+</html>

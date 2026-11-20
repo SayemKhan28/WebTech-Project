@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BRAC University</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h3>BRAC UNIVERSITY</h3>
+
+    <div class="main">
+
+        <div class="information">
+
+            <p>Application Start Date: 01 Sep 2025</p>
+
+            <p>Application End Date: 07 Dec 2025</p>
+
+            <p>Exam Date: 12 Dec 2025, 09:30 AM</p>
+
+            <p>Result Date: 17 Dec 2025</p>
+
+            <p>Application Fees: 1500 Tk</p>
+
+            <p>BRAC UNIVERSITY</p>
+
+            <p>Inspiring Excellence</p>
+
+            <p>Faculties: SECS, BBS, SoAD, SHSS, SoL, SoPH</p>
+
+            <p>Departments and Total Course Fees:</p>
+
+            <p>CE: 1,370,000 Tk</p>
+
+            <p>CSE: 1,370,000 Tk</p>
+
+            <p>EEE: 1,370,000 Tk</p>
+
+            <p>Architecture: 1,900,000 Tk</p>
+
+            <p>BBA: 1,330,000 Tk</p>
+
+            <p>English: 1,280,000 Tk</p>
+
+            <p>Economics: 1,280,000 Tk</p>
+
+            <p>Pharmacy: 1,560,000 Tk</p>
+
+            <p>LLB: 1,420,000 Tk</p>
+
+        </div>
+
+
+        <div class="eligibility">
+
+            <h4>Program Details</h4>
+
+            <label>Department:</label>
+
+            <select id="department" onchange="showFees()">
+
+                <option value="">Select Department</option>
+
+                <option value="CE">CE</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="Architecture">Architecture</option>
+                <option value="BBA">BBA</option>
+                <option value="English">English</option>
+                <option value="Economics">Economics</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="LLB">LLB</option>
+
+            </select>
+
+            <p id="fees">Total Fees:</p>
+
+            <br>
+
+            <button onclick="apply()">Apply</button>
+
+        </div>
+
+    </div>
+
+    <button class="back" onclick="history.back()">Back</button>
+
+</div>
+
+<script src="brac.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NSU Admission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>North South University (NSU)</h3>
+
+    <div class="main">
+
+        <div class="information">
+
+            <p>Application Start Date: 01 Nov 2025</p>
+
+            <p>Application End Date: 26 Nov 2025, 05:00 PM</p>
+
+            <p>Exam Date: 29 Nov 2025, 10:00 AM</p>
+
+            <p>Result Date: 02 Dec 2025</p>
+
+            <p>Application Fees: Not Provided</p>
+
+            <p>Faculties: SBE, SEPS, SHLS, SHSS</p>
+
+            <p>Departments and Total Course Fees:</p>
+
+            <p>CSE: 1,164,000 Tk</p>
+
+            <p>EEE: 1,172,000 Tk</p>
+
+            <p>Architecture: 1,599,000 Tk</p>
+
+            <p>BBA: 1,060,000 Tk</p>
+
+            <p>English: 1,060,000 Tk</p>
+
+            <p>CE: 1,164,000 Tk</p>
+
+        </div>
+
+
+        <div class="eligibility">
+
+            <h4>Program Details</h4>
+
+            <label>Department:</label>
+
+            <select id="department" onchange="showFees()">
+
+                <option value="">Select Department</option>
+
+                <option value="CSE">CSE</option>
+
+                <option value="EEE">EEE</option>
+
+                <option value="Architecture">Architecture</option>
+
+                <option value="BBA">BBA</option>
+
+                <option value="English">English</option>
+
+                <option value="CE">CE</option>
+
+            </select>
+
+            <p id="fees">Total Fees:</p>
+
+            <br>
+
+            <button onclick="apply()">Apply</button>
+
+        </div>
+
+    </div>
+
+    <button class="back" onclick="history.back()">Back</button>
+
+</div>
+
+<script src="nsu.js"></script>
+
+</body>
+</html>

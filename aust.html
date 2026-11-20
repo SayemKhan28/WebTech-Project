@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AUST Admission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>Ahsanullah University of Science and Technology (AUST)</h3>
+
+    <div class="main">
+
+        <div class="information">
+
+            <p>Application Start Date: 01 Sep 2025</p>
+
+            <p>Application End Date: 22 Sep 2025</p>
+
+            <p>Exam Date: 11 Oct 2025</p>
+
+            <p>Result Date: 10 Oct 2025</p>
+
+            <p>Application Fees: 1200 Tk</p>
+
+            <p>Faculties: Faculty of Architecture and Planning, Faculty of Engineering, Faculty of Business and Social Sciences</p>
+
+            <p>Departments and Total Course Fees:</p>
+
+            <p>CSE: 917,950 Tk</p>
+
+            <p>EEE: 917,950 Tk</p>
+
+            <p>Architecture: 1,139,050 Tk</p>
+
+            <p>BBA: 733,810 Tk</p>
+
+            <p>CE: 917,950 Tk</p>
+
+        </div>
+
+
+        <div class="eligibility">
+
+            <h4>Program Details</h4>
+
+            <label>Department:</label>
+
+            <select id="department" onchange="showFees()">
+
+                <option value="">Select Department</option>
+
+                <option value="CSE">CSE</option>
+
+                <option value="EEE">EEE</option>
+
+                <option value="Architecture">Architecture</option>
+
+                <option value="BBA">BBA</option>
+
+                <option value="CE">CE</option>
+
+            </select>
+
+            <p id="fees">Total Fees:</p>
+
+            <br>
+
+            <button onclick="apply()">Apply</button>
+
+        </div>
+
+    </div>
+
+    <button class="back" onclick="history.back()">Back</button>
+
+</div>
+
+<script src="aust.js"></script>
+
+</body>
+</html>

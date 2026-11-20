@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIUB Admission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>American International University-Bangladesh</h3>
+
+    <div class="main">
+
+        <div class="information">
+
+            <p>Application Start Date: 09 Nov 2025</p>
+
+            <p>Application End Date: 01 Dec 2025</p>
+
+            <p>Exam Date: 04 Dec 2025, 12:00 PM</p>
+
+            <p>Result Date: 11 Dec 2025, 05:00 PM</p>
+
+            <p>Application Fees: 1000 Tk</p>
+
+            <p>Faculties: FASS, FBA, FE, FHLS, FST</p>
+
+            <p>Departments and Total Course Fees:</p>
+
+            <p>CSE: 1,340,000 Tk</p>
+
+            <p>EEE: 1,266,400 Tk</p>
+
+            <p>Architecture: 1,360,000 Tk</p>
+
+            <p>BBA: 1,110,000 Tk</p>
+
+            <p>English: 880,000 Tk</p>
+
+            <p>Pharmacy: 1,400,000 Tk</p>
+
+            <p>Economics: 720,000 Tk</p>
+
+            <p>LLB: 1,192,500 Tk</p>
+
+        </div>
+
+
+        <div class="eligibility">
+
+            <h4>Program Details</h4>
+
+            <label>Department:</label>
+
+            <select id="department" onchange="showFees()">
+
+                <option value="">Select Department</option>
+
+                <option value="CSE">CSE</option>
+
+                <option value="EEE">EEE</option>
+
+                <option value="Architecture">Architecture</option>
+
+                <option value="BBA">BBA</option>
+
+                <option value="English">English</option>
+
+                <option value="Pharmacy">Pharmacy</option>
+
+                <option value="Economics">Economics</option>
+
+                <option value="LLB">LLB</option>
+
+            </select>
+
+            <p id="fees">Total Fees:</p>
+
+            <br>
+
+            <button onclick="apply()">Apply</button>
+
+        </div>
+
+    </div>
+
+    <button class="back" onclick="history.back()">Back</button>
+
+</div>
+
+<script src="aiub.js"></script>
+
+</body>
+</html>

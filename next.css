@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background:
+        radial-gradient(ellipse at 50% 85%, #164b83 0%, transparent 45%),
+        radial-gradient(ellipse at 20% 20%, #102d58 0%, transparent 40%),
+        linear-gradient(135deg, #020817, #071a38, #020817);
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+
+    background: rgba(8, 23, 48, 0.90);
+
+    padding: 40px 30px;
+    border-radius: 12px;
+
+    border: 1px solid #367dbb;
+
+    box-shadow: 0 0 25px rgba(40, 140, 255, 0.25);
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    margin-bottom: 35px;
+    color: #65caff;
+}
+
+/* Register and Login */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+
+    background-color: #164b83;
+    color: white;
+
+    border: 1px solid #52baff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #087dbe;
+    box-shadow: 0 0 12px #168cff;
+}
+
+/* Admin Button */
+.admin-btn {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .buttons button {
+        flex: 1;
+        padding: 12px 15px;
+    }
+
+    .admin-btn {
+        top: 15px;
+        right: 15px;
+    }
+}

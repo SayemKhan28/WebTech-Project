@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify</title>
+    <link rel="stylesheet" href="verify.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Verify</h1>
+
+        <form id="verifyForm" novalidate>
+
+            <div class="form-group">
+                <label for="verificationCode">Verify:</label>
+                <input type="number" id="verificationCode" placeholder="Enter verification number">
+                <span class="error" id="codeError"></span>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+    <script src="verify.js"></script>
+
+</body>
+</html>

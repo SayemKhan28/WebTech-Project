@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Orbit - University List</title>
+    <link rel="stylesheet" href="distance.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>ADMISSION ORBIT</h1>
+        <h2>University Distance List</h2>
+
+        <div class="search-section">
+
+           
+            <select id="sortDistance">
+                <option value="default">Sort by Distance</option>
+                <option value="low">Nearest First</option>
+                <option value="high">Farthest First</option>
+            </select>
+
+        </div>
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>University Name</th>
+                        <th>Location</th>
+                        <th>Approximate Distance (KM)</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="universityTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <div class="button-section">
+            <button onclick="window.location.href='privateDashboard.html'">Back</button>
+        </div>
+
+    </div>
+
+    <script src="distance.js"></script>
+
+</body>
+</html>
